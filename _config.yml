@@ -1,6 +1,2 @@
 baseurl: "http://daveho.github.io/t5740router"
-markdown: rdiscount
-highlighter: pygments
-
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
