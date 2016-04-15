@@ -30,5 +30,5 @@ This website describes my project to set up an HP t5740 thin client as a home ro
 * [Hardware used](hardware.html) &mdash; This is the hardware I used
 * [Hard drive mod](hdmod.html) &mdash; Describes how I installed a hard drive in the t5740
 * [Installing Debian](debian.html) &mdash; Installing Debian Linux
-* [Setting up shorewall](shorewall.html) &mdash; Coming soon!
-* [Setting up the DHCP server](dhcp.html) &mdash; Coming soon!
+* Setting up shorewall &mdash; Coming soon!
+* Setting up the DHCP server &mdash; Coming soon!
