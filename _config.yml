@@ -1,4 +1,4 @@
-baseurl: "http://daveho.github.io/router"
+baseurl: "http://daveho.github.io/t5740router"
 markdown: rdiscount
 highlighter: pygments
 
