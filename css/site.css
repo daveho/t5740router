@@ -75,3 +75,8 @@ pre {
     border: 0px solid transparent;
     border-radius: 10px;
 }
+
+#content {
+    width: 720px;
+    margin: 0 auto;
+}

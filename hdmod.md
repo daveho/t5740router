@@ -3,8 +3,7 @@ layout: default
 title: "t5740 hard drive mod"
 ---
 
-
-# HP t5740 Hard Drive mod
+# Hard drive mod
 
 The main hardware issue I encountered was figuring out how to install a 2.5" (laptop) SATA hard drive.  Fortunately, several [hard drive mods](http://www.parkytowers.me.uk/thin/hp/t5740/mods.shtml) are described on the Parky Towers t5740 page.
 
@@ -14,9 +13,9 @@ Basically, what I did is to attach the hard drive on the right outside panel of 
 
 The reason I used this approach is that the receptacles for the VESA mounting screws protrude on the "inside" of the panel, causing signficant difficulty putting the hard drive directly inside the t5740.  (Somehow Glenn managed to overcome this problem, maybe by removing the receptacle?)  This is not an issue on the "outside" of the panel, and there's just enough room to mount the hard drive such that it clears the PCI card and the fan in the expansion chassis.
 
-The panel has lots of small holes (for airflow?).  It turns out that these are a good size for M3 screws, and if selected carefully, can line up with 3 of the four screw holes on the bottom of the hard drive.  So, the mounting strategy is to fit the screws through from the "inside" of the panel, through the nylon washers, and then into the bottom of the hard drive.
+The panel has lots of small holes (for airflow? to reduce weight?).  It turns out that these are a good size for M3 screws, and if selected carefully, can line up with 3 of the four screw holes on the bottom of the hard drive.  So, the mounting strategy is to fit the screws through from the "inside" of the panel, through the nylon washers, and then into the bottom of the hard drive.
 
-With the hard drive in the expansion chassis, it is necessary to cut a hole in the panel for the SATA cable to go through.  I used a rotary tool with a diamond cutting wheel for this.  This was my first time ever using a rotary tool, but there are lots of good case modding videos on youtube that will explain exactly what you need to do.
+With the hard drive in the expansion chassis, it is necessary to cut a hole in the panel for the SATA cable to go through.  I used a rotary tool with a diamond cutting wheel for this.  This was my first time using a rotary tool, but there are lots of good case modding videos on youtube that will explain exactly what you need to do.
 
 ## What I did
 
@@ -49,7 +48,7 @@ Here is what I did to install a hard drive, with some pictures to illustrate (cl
 
 <div class="image">
 <a href="img/pic06_hd_mounted_rot.jpg"><img src="img/pic06_hd_mounted_rot_sm.jpg"></a>
-<div class="caption">Here's the mounted hard drive, seen from the "outside" of the panel (the side that is within the expansion chassis.)  Hidden underneath are the nylon washers serving as spacers for the screws, to ensure that the bottom of the hard drive isn't making contact with the panel.  Getting the screws in is a bit tricky: it helps to just <em>slightly</em> screw them all in before tightening.  Once the screws and spacers are in place, the hard drive sits very securely.</div>
+<div class="caption">Here's the mounted hard drive, seen from the "outside" of the panel (the side that is within the expansion chassis.)  Hidden underneath the hard drive are the nylon washers serving as spacers for the screws, to ensure that the bottom of the hard drive isn't making contact with the panel.  Getting the screws in is a bit tricky: it helps to just <em>slightly</em> screw them all in before tightening.  Once the screws and spacers are in place, the hard drive sits very securely.</div>
 </div>
 
 <div class="image">
