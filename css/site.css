@@ -1,0 +1,77 @@
+div.image {
+    text-align: center;
+    margin: 50px auto; 
+}
+
+div.image div.caption {
+    margin: 0px auto;
+    text-decoration: none;
+    color: black;
+    width: 480px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 4px;
+}
+
+#header {
+    margin: 0 auto;
+    position: relative;
+    background: black;
+    padding: 6px;
+}
+
+#header div.left {
+    display: inline-block;
+    float: left;
+    color: white;
+}
+
+#header div.right {
+    display: inline-block;
+    float: right;
+}
+
+#header a, #footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#header a:hover, #footer a:hover {
+    text-decoration: underline;
+}
+
+#header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 6px;
+}
+
+a.cc-img {
+    vertical-align: -2px;
+}
+
+pre {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    background: silver;
+    border: 0px solid transparent;
+    border-radius: 10px;
+}

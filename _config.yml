@@ -1,0 +1,6 @@
+baseurl: "http://daveho.github.io/router"
+markdown: rdiscount
+highlighter: pygments
+
+rdiscount:
+  extensions: [smart]
