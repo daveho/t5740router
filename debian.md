@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Installing Debian"
+---
 
-## Install Debian
+# Installing Debian
 
 I used the [netinst with firmware ISO](http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/) image.  The Atom N280 CPU in the t5740 is a 32 bit CPU, so I used the i386 version.  I used `dd` to copy the image onto a USB flash drive: the t5740 booted right into the Debian installer with no issues.
 
