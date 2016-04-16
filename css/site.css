@@ -57,6 +57,7 @@ th, td {
 }
 
 #footer {
+    margin-top: 32px;
     text-align: center;
     background: black;
     color: white;
@@ -71,7 +72,7 @@ pre {
     margin-left: 40px;
     margin-right: 40px;
     padding: 10px;
-    background: silver;
+    background: #e8e8e8;
     border: 0px solid transparent;
     border-radius: 10px;
 }
@@ -80,3 +81,18 @@ pre {
     width: 720px;
     margin: 0 auto;
 }
+
+.callout {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border: 4px solid #d44;
+    border-radius: 16px;
+    background: #fbb;
+    margin-bottom: 16px;
+}
+
+/*
+vim:set expandtab:
+vim:set tabstop=4:
+*/

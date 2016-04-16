@@ -3,8 +3,6 @@ layout: default
 title: "HP t5740 Home Router"
 ---
 
-# Setting up an HP t5740 thin client as a home router
-
 TL;DR I am working on setting up an HP t5740 thin client to serve as a home router, using Debian 8 (Jessie).  This is very much a work in progress!  I will be updating this website as the project progresses.
 
 ## News
@@ -28,7 +26,11 @@ This website describes my project to set up an HP t5740 thin client as a home ro
 * [Thin clients](thinclients.html) &mdash; Why a thin client makes a good home router
 * [Hardware used](hardware.html) &mdash; This is the hardware I used
 * [Hard drive mod](hdmod.html) &mdash; Describes how I installed a hard drive in the t5740
-* [Installing Debian](debian.html) &mdash; Installing Debian Linux
-* Setting up shorewall &mdash; Coming soon!
+* [Configuring Debian](debian.html) &mdash; Installing and configuring Debian Linux
+* [Configuring Shorewall](shorewall.html) &mdash; Configuring the Shorewall firewall scripts
 * Setting up the DHCP server &mdash; Coming soon!
 * Setting up samba &mdash; Coming soon!
+
+<!-- vim:set wrap: ­-->
+<!-- vim:set linebreak: -->
+<!-- vim:set nolist: -->

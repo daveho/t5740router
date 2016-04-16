@@ -3,8 +3,6 @@ layout: default
 title: "t5740 hard drive mod"
 ---
 
-# Hard drive mod
-
 The main hardware issue I encountered was figuring out how to install a 2.5" (laptop) SATA hard drive.  Fortunately, several [hard drive mods](http://www.parkytowers.me.uk/thin/hp/t5740/mods.shtml) are described on the Parky Towers t5740 page.
 
 I didn't end up precisely following any of the three hard drive mods described at Parky Towers, but instead opted for a variant of [Glenn's mod](http://www.parkytowers.me.uk/thin/hp/t5740/mods_glenn.shtml).  Specifically, I used the SATA adapter and cable recommended by Glenn, but rather than installing the hard drive inside the original t5740 chassis, I installed it in the expansion chassis.  And, unlike [Eric's mod](http://www.parkytowers.me.uk/thin/hp/t5740/mods_exp.shtml), which installed a hard drive in the expansion chassis, but required removing the fan, my mod keeps the fan.

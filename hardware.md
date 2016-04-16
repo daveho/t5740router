@@ -3,8 +3,6 @@ layout: default
 title: "Hardware used"
 ---
 
-# Hardware used
-
 This is the hardware I used:
 
 > Item | Cost | Where purchased
