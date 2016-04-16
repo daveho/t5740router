@@ -3,8 +3,6 @@ layout: default
 title: "Thin clients"
 ---
 
-# Thin clients
-
 Thin clients are a nice option for use as a home router:
 
 * They're cheap, since they're purchased in large numbers by enterprise users, and when they reach obsolescence they are dumped onto the surplus market
