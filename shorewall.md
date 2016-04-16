@@ -27,7 +27,7 @@ Fortunately, the [Arch Linux wiki article on Shorewall](https://wiki.archlinux.o
 
 ## Why doesn't anyone use the `params` file?
 
-A Shorewall configuration has a file called `params` in which you can define variables that can be referenced in the other configuration files.  This is a great idea!  For example, if the ethernet port connected to the external network is `eth2`, you can set a variable in params like so:
+A Shorewall configuration has a file called `params` in which you can define variables which may be referenced in the other configuration files.  This is a great idea!  For example, if the ethernet port connected to the external network is `eth2`, you can set a variable in params like so:
 
     NET_IF=eth2
 
@@ -37,7 +37,7 @@ and then refer to `$NET_IF` in the other configuration files which need to know 
 * Which ethernet port connects to the local network
 * What address block should be allocated for hosts on the internal network
 
-Here's the thing: *no one seems to use the params file*.  The Shorewall example configurations don't use it.  The Arch Linux wiki example configuration doesn't use it.  Everyone seems to be happy modifying details in each individual configuration file in a way that is both redundant and error-prone.
+Here's the thing, though: *no one seems to use the params file*.  The Shorewall example configurations don't use it.  The Arch Linux wiki example configuration doesn't use it.  Everyone seems to be happy modifying details in each individual configuration file in a way that is both redundant and error-prone.
 
 In my configuration, I have set things up so that `params` is the only file that really needs to be modified to have a working configuration.  See *My configuration* below for details.
 
