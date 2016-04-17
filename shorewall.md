@@ -21,7 +21,7 @@ Shorewall appealed to me because it's simply a set of scripts that can run on pr
 
 To configure Shorewall, you start with a set of example configuration files, and then edit based on details of your home network.  I started from the [basic two interface firewall](http://shorewall.net/two-interface.htm) configuration, which is the one that is appropriate for a basic home network.
 
-The official Shorewall documentation is pretty good as a reference, but not particularly helpful as a tutorial.  Shorewall is very configurable, and the documentation exhaustively documents every possible option, but that's not particulary helpful if you're just trying to get *something* working.  What I really wanted was a concise summary of what configuration details I would need to change.
+The official Shorewall documentation is pretty good as a reference, but not particularly helpful as a tutorial.  Shorewall is very configurable, and the documentation exhaustively documents every possible option, but that's not all that helpful if you're just trying to get *something* working.  What I really wanted was a concise summary of what configuration details I would need to change.
 
 Fortunately, the [Arch Linux wiki article on Shorewall](https://wiki.archlinux.org/index.php/Shorewall) provides a concise summary of how to set up a two-interface configuration.  Even though I am using Debian, the information in the article still applies.
 
