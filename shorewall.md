@@ -4,7 +4,7 @@ title: "Configuring Shorewall"
 ---
 
 <div class="callout">
-<strong>Caution</strong>: This content is very preliminary.
+<strong>Caution</strong>: This content is somewhat preliminary.  I have Shorewall working in a test environment, but I have not put it into full production yet.
 </div>
 
 [Shorewall](http://shorewall.net/) is a set of scripts that configures [netfilter](http://www.netfilter.org/) and other Linux networking components to act as a firewall/router.  The idea is that you edit a few high-level configuration files, and Shorewall orchestrates the configuration of the low-level networking components to put your configuration into effect.
@@ -43,9 +43,31 @@ In my configuration, I have set things up so that `params` is the only file that
 
 ## My configuration
 
-<div class="callout">
-This is coming soon.
-</div>
+My configuration is the "two interface" configuration from `/usr/share/doc/shorewall/examples/two-interface`, with some minor modifications.  Specifically:
+
+* I allow programs running on the firewall to connect to the external internet.
+* I use the `params` file to define details that are expected to be specific to my installation.  So, if you want to use my configuration, this is quite possibly the only file you would need to change.
+
+Here is my preliminary shorewall configuration:
+
+> [shorewall-etc-v01.zip](config/shorewall-etc-v01.zip)
+
+Here is my `params` file (minus some boilerplate comments).  As mentioned above, this is the only file you should need to change if you use my configuration:
+
+    # On my HP t5740, I have an HP NC360T PCIe dual gigabit ethernet card,
+    # which appears under debian as eth1 and eth2.  eth2 is the connection
+    # to the net (cable modem), and eth1 is connected to the local network.
+    # (eth0 is the integrated Broadcom ethernet, which I'm not using
+    # for anything.)
+    
+    # Interface to internet
+    NET_IF=eth2
+    
+    # Interface to local network
+    LOC_IF=eth1
+    
+    # This is the IP range used on the local network.
+    LOC_NET_CIDR=192.168.6.0/24
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->

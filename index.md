@@ -7,7 +7,8 @@ TL;DR I am working on setting up an HP t5740 thin client to serve as a home rout
 
 ## News
 
-* **April 15th, 2016** &mdash; Hard drive is installed, and the system is running Debian.  Next step is setting up [Shorewall](http://shorewall.net/).
+* **April 17th, 2016** &mdash; [Shorewall](shorewall.html) is working in a test environment.  Next step is setting up dnsmasq.
+* **April 15th, 2016** &mdash; Hard drive is installed, and the system is running Debian.  Next step is setting up [Shorewall](shorewall.html).
 
 ## Background
 
