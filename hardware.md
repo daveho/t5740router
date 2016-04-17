@@ -17,7 +17,7 @@ This is the hardware I used:
 > Small nylon washers | $1 | Lowes
 > 20 x 10mm M3 screws | $5 | Ebay
 
-Expenses were comfortably less than $100, although I will need to get a wireless access point and an ethernet switch to complete the setup.
+Expenses were comfortably less than $100, although I will need a wireless access point and an ethernet switch to complete the setup.  (I have the ethernet switch, so I'll just need to buy the access point.)
 
 I have seen the HP NC360T dual ethernet card on Amazon for around $10.  As far as I can tell, it's just a rebadged Intel dual port gigabit card: Dell and probably other PC vendors have their own variants.  Anything based on the Intel 82571EB or similar chipsets should be a good option.  Make sure you get a card with a full height bracket (not a low profile bracket.)  You could potentially just use a card with a single port, since the t5740 does have one built-in (Broadcom) ethernet adapter already.
 

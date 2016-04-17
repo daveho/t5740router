@@ -21,12 +21,12 @@ Here is what I did to install a hard drive, with some pictures to illustrate (cl
 
 <div class="image">
 <a href="img/pic01_panel.jpg"><img src="img/pic01_panel_sm.jpg"></a>
-<div class="caption">The "inside" of the panel.  Blue circles indicate screw locations.  Rectangle on masking tape is the cutout for the SATA cable.</div>
+<div class="caption">The "inside" of the panel.  Blue circles indicate screw locations.  Rectangle on masking tape marks the cutout for the SATA cable.</div>
 </div>
 
 <div class="image">
 <a href="img/pic02_panel_outside.jpg"><img src="img/pic02_panel_outside_sm.jpg"></a>
-<div class="caption">The "outside" of the panel.  I stuck on an adhesive plastic "foot" to make sure the hard drive wouldn't hit the panel in the corner lacking a screw.</div>
+<div class="caption">The "outside" of the panel.  I stuck on an adhesive plastic "foot" to make sure the hard drive wouldn't hit the panel in the corner lacking a screw.  It's the clear circular thingy.</div>
 </div>
 
 <div class="image">
@@ -41,12 +41,12 @@ Here is what I did to install a hard drive, with some pictures to illustrate (cl
 
 <div class="image">
 <a href="img/pic05_cut_finished.jpg"><img src="img/pic05_cut_finished_sm.jpg"></a>
-<div class="caption">Cut finished.  Not the prettiest result, but it's on the inside of the enclosure, so no one will see it.  I did use a file to shave off any jagged pieces of metal.</div>
+<div class="caption">Cut finished.  Not the prettiest result, but it's on the inside of the enclosure, so no one will see it.  I did use a file to shave off any jagged pieces of metal.  (Note that the picture here is rotated 90 degrees counterclockwise from the previous picture of the panel.)</div>
 </div>
 
 <div class="image">
 <a href="img/pic06_hd_mounted_rot.jpg"><img src="img/pic06_hd_mounted_rot_sm.jpg"></a>
-<div class="caption">Here's the mounted hard drive, seen from the "outside" of the panel (the side that is within the expansion chassis.)  Hidden underneath the hard drive are the nylon washers serving as spacers for the screws, to ensure that the bottom of the hard drive isn't making contact with the panel.  Getting the screws in is a bit tricky: it helps to just <em>slightly</em> screw them all in before tightening.  Once the screws and spacers are in place, the hard drive sits very securely.</div>
+<div class="caption">Here's the mounted hard drive, seen from the "outside" of the panel (the side that will be inside the expansion chassis.)  Hidden underneath the hard drive are the nylon washers serving as spacers for the screws, to ensure that the bottom of the hard drive isn't making contact with the panel.  Getting the screws in is a bit tricky: it helps to just <em>slightly</em> screw them all in before tightening.  Once the screws and spacers are in place, the hard drive sits very securely.</div>
 </div>
 
 <div class="image">
@@ -56,7 +56,7 @@ Here is what I did to install a hard drive, with some pictures to illustrate (cl
 
 <div class="image">
 <a href="img/pic08_panel_mounted_rot.jpg"><img src="img/pic08_panel_mounted_rot_sm.jpg"></a>
-<div class="caption">Panel in place.  All that remains is to put the screws back in, and then attach the expansion chassis.  Most of the SATA cable ends up in the expansion chassis, so some care is required to route it where it won't touch something it shouldn't (like the heat sink on the network card.)</div>
+<div class="caption">Panel in place.  All that remains is to put the screws back in, and then attach the expansion chassis.  Most of the SATA cable ends up in the expansion chassis, so some care is required to route it where it won't touch something it shouldn't (like the heat sink on the network card.)  I tucked it alongside the hard drive.</div>
 </div>
 
 <div class="image">
