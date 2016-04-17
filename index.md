@@ -3,6 +3,11 @@ layout: default
 title: "HP t5740 Home Router"
 ---
 
+<div style="text-align: center; float: right; margin-left: 40px; margin-bottom: 20px;">
+<a href="img/t5740.jpg"><img style="width: 120px;" src="img/t5740.jpg"></a> <br>
+My HP t5740
+</div>
+
 TL;DR I am working on setting up an HP t5740 thin client to serve as a home router, using Debian 8 (Jessie).  This is very much a work in progress!  I will be updating this website as the project progresses.
 
 ## News
