@@ -21,6 +21,8 @@ Expenses were comfortably less than $100, although I will need to get a wireless
 
 I have seen the HP NC360T dual ethernet card on Amazon for around $10.  As far as I can tell, it's just a rebadged Intel dual port gigabit card: Dell and probably other PC vendors have their own variants.  Anything based on the Intel 82571EB or similar chipsets should be a good option.  Make sure you get a card with a full height bracket (not a low profile bracket.)  You could potentially just use a card with a single port, since the t5740 does have one built-in (Broadcom) ethernet adapter already.
 
-Note that only 3 M3 screws are needed.  If you can find slightly shorter screws (perhaps 8 or 9 mm), that could be desirable (the 10mm screws were just a *bit* on the long side in my installation).  Also, the nylon washers should be relatively thin: they are used as spacers for installing the hard drive, and the clearance is somewhat tight.
+Although my intent with the RAM upgrade was to have a total of 4 GB available, Linux reports only 3 GB, even though I am using a PAE kernel.  My guess is that the BIOS doesn't report the entire 4 GB of RAM in its memory map.  Oh well, 3 GB is still a lot for a home router.
+
+Note that only 3 M3 screws are needed (for installing the SATA hard drive.)  If you can find slightly shorter screws (perhaps 8 or 9 mm), that could be desirable (the 10mm screws were just a *bit* on the long side in my installation).  Also, the nylon washers should be relatively thin: they are used as spacers for installing the hard drive, and the clearance is somewhat tight.
 
 If you can find a thin (7mm) SATA hard drive, that is also desirable (again, because of space issues).  The one I used was left over from my Lenovo T430 laptop following an upgrade to an SSD.
