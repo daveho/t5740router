@@ -48,7 +48,7 @@ My configuration is the "two interface" configuration from `/usr/share/doc/shore
 * I allow programs running on the firewall to connect to the external internet.
 * I use the `params` file to define details that are expected to be specific to my installation.  So, if you want to use my configuration, this is quite possibly the only file you would need to change.
 
-Here is my preliminary shorewall configuration:
+Here is my preliminary shorewall configuration (these files should go in `/etc/shorewall`):
 
 > [shorewall-etc-v01.zip](config/shorewall-etc-v01.zip)
 
@@ -68,6 +68,8 @@ Here is my `params` file (minus some boilerplate comments).  As mentioned above,
     
     # This is the IP range used on the local network.
     LOC_NET_CIDR=192.168.6.0/24
+
+Once you have copied the Shorewall configuration files into `/etc/shorewall` and edited the `params` file as appropriate, you will then need to edit `/etc/default/shorewall` to change the value of the `startup` variable from `0` to `1`.  Once you've done this, reboot, and you should be ready to route packets!
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
