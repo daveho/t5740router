@@ -4,7 +4,7 @@ title: "Configuing dnsmasq"
 ---
 
 <div class="callout">
-<b>Warning</b>: This section is somewhat preliminary.
+<b>Warning</b>: This is preliminary.  At the moment DNS works, but DHCP does not.
 </div>
 
 [Dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) is a nifty piece of software that provides DNS (name resolution) and DHCP (automatic assignment of network addresses) to clients on a local network.
